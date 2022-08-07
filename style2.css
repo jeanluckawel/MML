@@ -1,0 +1,97 @@
+body{
+    max-width: 1024;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(203, 224, 164);
+    font-family: monospace;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    background-color: rgba(8, 8, 241, 0.911);
+}
+header div{
+    display: flex;
+}
+.liens{
+    display: flex;
+    gap:8px;
+}
+.lien{
+    display: flex;
+    text-align:right;
+    padding: 10%;
+    width: 33.3%;
+    font-size: 70px;
+    gap: 20px;
+    background-color: rgb(56, 28, 218);
+
+}
+.liens:hover{
+    color: white;
+    background-color: blue;
+}
+.logo{
+    height: max-content;
+    width: 1024px;
+    height: auto;
+}
+.couverture{
+    width: 50%;
+    height: 80%;
+    margin-left: 2500px;
+    margin-right: 0px;
+    background-image: url("michelle.jpg")top;
+    background-size: cover;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+.competences{
+    display: flex;
+    gap: 30%;
+    width: 50%;
+
+
+}
+.competence{
+    height: 50%;
+    font-size: 26px;
+    text-align: center;
+    width:75% ;
+}
+.interime{
+    width: 100%;
+    height: auto;
+    padding: auto;
+    align-content: space-between;
+}
+.text1{
+    text-align: left;
+    font-size: 1024%;
+}
+.text2{
+    background-color: aqua;
+    width: auto;
+    padding:auto;
+    height: auto;
+    align-content: space-between;
+}
+.text3{
+    background-color: rgb(3, 8, 36);
+    width: auto;
+    height: auto;
+    padding: auto;
+    align-content: space-between;
+
+}
